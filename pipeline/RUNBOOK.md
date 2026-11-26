@@ -80,3 +80,11 @@ Say plainly what was made, what failed, what was not checked. Do not claim a pin
 - Wall art sets: scripts/woodblock_pack.py names the six upscaled JPGs, writes READ_ME, zips, and makes two titled framed covers (edit NAME, TITLE, ITEMS and README for a new set).
 - The classic 4k upscale can turn smooth paper grain in large flat skies into blotchy streaks. Check skies at full size; a sky only band reduction (original minus 0.7 x (blur 5 minus blur 70) under a feathered mask) fixed it.
 - Gumroad draft rfkcgm (/l/japanese-woodblock-prints) created 25 Nov, about 06:35 UTC; one product creation used. Draft nkqbys (telling time) was still unpublished on 25 Nov.
+
+## Notes from the 26 Nov 2026 daily run
+- The sandbox already had a stale clone at /home/claude/inkwell-files whose history no longer matched origin after the 25 Nov rewrite. Do not reset it; make a fresh clone in a new folder (this run used /home/claude/inkwell-fresh) and work there.
+- Spreadsheet products, second one: scripts/income_budget.py builds the Irregular Income Budget (argument "empty" for the blank copy, PREVIEW=1 for tab renders). scripts/verify_income_budget.py checks a LibreOffice recalculated copy against plain Python arithmetic, and with --stress builds and checks 7 stress files; it must print FAILURES 0 before listing. scripts/incomecover.py makes the desk cover, scripts/incomecover2.py the "What is inside" grid.
+- Spreadsheet traps found: MIN and MAX ignore an empty cell reference, so add +0 to a setting that may be empty; count named rows only (SUMIFS with "<>" on the name column) so a half filled row does not leak into totals; count sentences such as "Payments logged: 3" avoid singular and plural mistakes.
+- Listing covers now go in covers/ and stay in the repo, so pins can be made later without regenerating them.
+- Gumroad draft aorcmu (/l/irregular-income-budget) created 26 Nov, about 06:35 UTC; one product creation used.
+
