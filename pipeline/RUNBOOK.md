@@ -88,3 +88,9 @@ Say plainly what was made, what failed, what was not checked. Do not claim a pin
 - Listing covers now go in covers/ and stay in the repo, so pins can be made later without regenerating them.
 - Gumroad draft aorcmu (/l/irregular-income-budget) created 26 Nov, about 06:35 UTC; one product creation used.
 
+
+## Notes from the 27 Nov 2026 daily run
+- Planner systems, second one: scripts/focus_planner.py builds The Focus Planner (4 PDFs) with a larger type scale than freelancer_planner.py and prints width warnings; it must print WARNINGS 0. Tables stretch their rows to fill the space given, and checkcol takes one column or a list.
+- scripts/focuscover.py makes both covers in code (title with four pages, 12 page grid) from pages rendered with pdftoppm -r 110. Use it as the model for a coded cover whenever Magnific is unavailable.
+- Magnific refused all generations on 27 Nov with "unpaid last payment" on the subscription. Do not retry in a loop; check once per run, and if it is still refused make coded products and coded covers only and tell her.
+- Gumroad draft qrfubk (/l/focus-planner) created 27 Nov, about 07:00 UTC; one product creation used.
