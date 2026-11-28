@@ -94,3 +94,11 @@ Say plainly what was made, what failed, what was not checked. Do not claim a pin
 - scripts/focuscover.py makes both covers in code (title with four pages, 12 page grid) from pages rendered with pdftoppm -r 110. Use it as the model for a coded cover whenever Magnific is unavailable.
 - Magnific refused all generations on 27 Nov with "unpaid last payment" on the subscription. Do not retry in a loop; check once per run, and if it is still refused make coded products and coded covers only and tell her.
 - Gumroad draft qrfubk (/l/focus-planner) created 27 Nov, about 06:25 UTC; one product creation used.
+
+## Notes from the 28 Nov 2026 daily run
+- Kids worksheet bundles, second one: scripts/numbers_1_20.py builds Numbers 1 to 20 Worksheets (Letter and A4 plus a JSON manifest of every object and ten frame dot as drawn); it must print WARNINGS 0. scripts/verify_numbers_1_20.py recomputes every answer from the manifest and must print FAILURES 0. scripts/numberscover.py makes both coded covers from pages rendered with pdftoppm -r 110.
+- Reusable parts in numbers_1_20.py: icon() draws 15 flat objects (filled or outline for coloring), DIG holds single stroke digits 0 to 9 for dotted tracing, frame() draws ten frames, maze_page() makes a number path with one route.
+- Keep both paper sizes at the same page count: the answer key is the part that can spill onto an extra page on US Letter.
+- The safety check in this sandbox refuses rm with wildcards; render into a new folder each time instead of clearing an old one.
+- Magnific still refused generation on 28 Nov (unpaid last payment). Rotation D cannot run until she fixes it; do rotation A that day instead and tell her.
+- Gumroad draft fcaxem (/l/numbers-1-to-20-worksheets) created 28 Nov, about 09:36 UTC; one product creation used.
