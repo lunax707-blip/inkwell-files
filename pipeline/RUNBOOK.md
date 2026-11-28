@@ -101,4 +101,4 @@ Say plainly what was made, what failed, what was not checked. Do not claim a pin
 - Keep both paper sizes at the same page count: the answer key is the part that can spill onto an extra page on US Letter.
 - The safety check in this sandbox refuses rm with wildcards; render into a new folder each time instead of clearing an old one.
 - Magnific still refused generation on 28 Nov (unpaid last payment). Rotation D cannot run until she fixes it; do rotation A that day instead and tell her.
-- Gumroad draft fcaxem (/l/numbers-1-to-20-worksheets) created 28 Nov, about 09:36 UTC; one product creation used.
+- Gumroad draft fcaxem (/l/numbers-1-to-20-worksheets) created 28 Nov, about 06:30 UTC; one product creation used.
